@@ -9,11 +9,11 @@ A curated list of awesome Intuitive Physics resources. Inspired by [awesome-deep
 Intuitive Physics is about utilizing machine learning techniques to learn physics. These are some of the awesome resources! 
 
 <p align="center">
-  <img src="https://github.com/hjzh4/awesome-intuitive-physics/blob/master/rsc/contributing.jpg?raw=true" width="300">
+  <img src="https://github.com/uscresl/awesome-intuitive-physics/blob/master/rsc/contributing.jpg?raw=true" width="300">
 </p>
 
 ## Contributing
-Please help contribute this list by adding [pull request](https://github.com/hjzh4/awesome-intuitive-physics/pulls)
+Please help contribute this list by adding [pull request](https://github.com/uscresl/awesome-intuitive-physics/pulls)
 
 Markdown format:
 ```markdown
