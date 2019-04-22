@@ -6,7 +6,7 @@
 
 A curated list of awesome Intuitive Physics resources. Inspired by [awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision), [awesome-adversarial-machine-learning](https://github.com/yenchenlin/awesome-adversarial-machine-learning), [awesome-deep-learning-papers](https://github.com/terryum/awesome-deep-learning-papers), and [awesome-architecture-search](https://github.com/markdtw/awesome-architecture-search)
 
-Intuitive Physics is about utilizing machine learning techniques to learn physics. These are some of the awesome resources! 
+Intuitive Physics is about utilizing machine learning techniques to learn physics. These are some of the awesome resources! This topic is also strongly related with [Model-based Reinforcement Learning](https://github.com/hjzh4/awesome-model-based-reinforcement-learning). 
 
 <p align="center">
   <img src="https://github.com/uscresl/awesome-intuitive-physics/blob/master/rsc/contributing.jpg?raw=true" width="300">
@@ -30,61 +30,34 @@ Markdown format:
 - [Tools](#tools)
 
 ## Thesis
-- Efficient Reinforcement Learning using Gaussian Processes. [[pdf]](https://pdfs.semanticscholar.org/c9f2/1b84149991f4d547b3f0f625f710750ad8d9.pdf)
-    - Marc Peter Deisenroth.
 ## Survey
-#### 2017
-- Survey of Model-Based Reinforcement Learning: Applications on Robotics. [[pdf]](https://link.springer.com/article/10.1007/s10846-017-0468-y)
-    - Athanasios S. Polydoros and Lazaros Nalpantidis. *J Intell Robot Syst 2017*
-## CV/CG
-- Curiosity-driven Exploration by Self-supervised Prediction. [[pdf]](https://arxiv.org/pdf/1705.05363.pdf) [[code]](https://github.com/pathak22/noreward-rl)
-    - Deepak Pathak, Pulkit Agrawal, Alexei A. Efros, Trevor Darrell. *ICML 2017*
 ## Conference Papers
-### Physics Model
-- Differentiable Physics and Stable Modes for Tool-Use and Manipulation Planning. [[pdf]](http://www.roboticsproceedings.org/rss14/p44.pdf) [[code]](https://github.com/MarcToussaint/18-RSS-PhysicalManipulation)
-    - Marc Toussaint, Kelsey R. Allen, Kevin A. Smith, Joshua B. Tenenbaum. *RSS 2018*
-- A convex, smooth and invertible contact model for trajectory optimization. [[pdf]](https://homes.cs.washington.edu/~todorov/courses/amath533/ContactConvex.pdf)
-    - Emanuel Todorov. *ICRA 2011*
-- A Modular Differentiable Rigid Body Physics Engine. [[pdf]](https://drive.google.com/file/d/1K8t4gQExFXbuG4F9Zd2_30Y5wtpdEST7/view) [[code]](https://github.com/locuslab/lcp-physics)
-    - Filipe de Avila Belbute-Peres, J. Zico Kolter. *Deep Reinforcement Learning Symposium, NIPS 2017*
-- A DIFFERENTIABLE PHYSICS ENGINE FOR DEEP LEARNING IN ROBOTICS. [[pdf]](https://openreview.net/pdf?id=HkrB8XXte)
-    - Jonas Degrave, Michiel Hermans, Joni Dambre, Francis wyffels. *ICLR 2017*
-- Discovery of Complex Behaviors through Contact-Invariant Optimization. [[pdf]](https://homes.cs.washington.edu/~todorov/papers/MordatchSIGGRAPH12.pdf)
-    - Igor Mordatch, Emanuel Tordorov, Zoran Popovic. *TOG'12*
-### Hybrid model-based and model-free algorithm
-- Neural Network Dynamics for Model-Based Deep Reinforcement Learning with Model-Free Fine-Tuning. [[pdf]](https://arxiv.org/abs/1708.02596) [[code]](https://github.com/nagaban2/nn_dynamics)
-    - Anusha Nagabandi, Gregory Kahn, Ronald S. Fearing, Sergey Levine.
-- Combining Model-Based and Model-Free Updates for Trajectory-Centric Reinforcement Learning. [[pdf]](https://arxiv.org/abs/1703.03078)
-    - Yevgen Chebotar, Karol Hausman, Marvin Zhang, Gaurav Sukhatme, Stefan Schaal, Sergey Levine. *ICML 2017*
-### Optimal Control
-- Local Gaussian Process Regression for Real-time Model-based Robot Control. [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4650850)
-    - Duy Nguyen-Tuong and Jan Peters. *IROS 2008*
-### Local model
-- Learning Neural Network Policies with Guided Policy Search under Unknown Dynamics. [[pdf]](https://people.eecs.berkeley.edu/~svlevine/papers/mfcgps.pdf) [[code]](https://github.com/cbfinn/gps/blob/master/docs/index.md)
-    - Sergey Levine and Pieter Abbeel. *NIPS 2014*
-### Learn in latent space
-#### Foward Dynamics Model
-- Embed to Control: A Locally Linear Latent Dynamics Model for Control from Raw Images. [[pdf]](https://arxiv.org/pdf/1506.07365.pdf) [[code]](https://github.com/ericjang/e2c)
-    - Manuel Watter, Jost Tobias Springenberg, Martin Riedmiller, Joschka Boedecker. *ICRA 2017*
-- Deep Spatial Autoencoders for Visuomotor Learning. [[pdf]](https://arxiv.org/pdf/1509.06113.pdf) [[code]](https://github.com/cbfinn/gps/blob/master/docs/index.md)
-    - Chelsea Finn, Xin Yu Tan, Yan Duan, Trevor Darrell, Sergey Levine, Pieter Abbeel. *ICRA 2016*
-### Gaussian Process
-- Data-Efficient Reinforcement Learning in Continuous-State POMDPs. [[pdf]](https://papers.nips.cc/paper/6799-data-efficient-reinforcement-learning-in-continuous-state-action-gaussian-pomdps.pdf)
-    - Rowan McAllister, Carl Rasmussen. *NIPS 2017*
-- Improving PILCO with Bayesian Neural Network Dynamics Models. [[pdf]](http://mlg.eng.cam.ac.uk/yarin/PDFs/DeepPILCO.pdf)
-    - Yarin Gal and Rowan Thomas McAllister and Carl Edward Rasmussen. *Data-Efficient Machine Learning workshop, ICML, 2016*
-- PILCO: A Model-Based and Data-Efficient Approach to Policy Search. [[pdf]](http://mlg.eng.cam.ac.uk/pub/pdf/DeiRas11.pdf) [[code]](http://mlg.eng.cam.ac.uk/pilco/) [[unofficial code]](https://github.com/nrontsis/PILCO)
-    - Marc Peter Deisenroth, Carl Rasmussen. *ICML 2011*
-- Learning to Control a Low-Cost Manipulator using Data-Efficient Reinforcement Learning. [[pdf]](http://www.roboticsproceedings.org/rss07/p08.pdf)
-    - Marc Peter Deisenroth, Carl Edward Rasmussen and Dieter Fox. *RSS 2011*
-- Learning Dynamics Across Similar Spatiotemporally-Evolving Physical Systems. [[pdf]](http://proceedings.mlr.press/v78/whitman17a/whitman17a.pdf)
-    - Joshua Whitman, Girish Chowdhary. *CoRL 2017*
+- Fast, Robust Adaptive Control by Learning only
+Forward Models. [[pdf]](https://papers.nips.cc/paper/585-fast-robust-adaptive-control-by-learning-only-forward-models.pdf)
+    - Andrew W. Moore. *NIPS 1991*
+- Locally Weighted Learning for Control. [[pdf]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.70.8672&rep=rep1&type=pdf)
+    - Christopher G. Atkeson, Andrew W. Moore, and Stefan Schaal. *AI Review 1996*
+- Interaction Networks for Learning about Objects, Relations and Physics. [[pdf]](https://arxiv.org/pdf/1612.00222.pdf) [[code]](https://github.com/higgsfield/interaction_network_pytorch)
+    - Peter W. Battaglia, Razvan Pascanu, Matthew Lai, Danilo Rezende, Koray Kavukcuoglu. *NIPS 2016*
+- A Compositional Object-Based Approach to Learning Physical Dynamics. [[pdf]](https://arxiv.org/pdf/1612.00341.pdf) [[code]](http://mbchang.github.io/npe/#user-content-header-4)
+    - Michael B. Chang, Tomer Ullman, Antonio Torralba, Joshua B. Tenenbaum. *ICLR 2017*
+- Graph networks as learnable physics engines for inference and control
+. [[pdf]](https://arxiv.org/pdf/1806.01242.pdf) [[code]](https://github.com/fxia22/gn.pytorch)
+    - Alvaro Sanchez-Gonzalez, Nicolas Heess, Jost Tobias Springenberg, Josh Merel, Martin Riedmiller, Raia Hadsell, Peter Battaglia. *ICML 2018*
+- Flexible Neural Representation for Physics Prediction. [[pdf]](https://arxiv.org/pdf/1806.08047.pdf) [[code]](https://github.com/neuroailab/physics_prediction)
+    - Damian Mrowca, Chengxu Zhuang, Elias Wang, Nick Haber, Li Fei-Fei, Joshua B. Tenenbaum, Daniel L. K. Yamins.
+- Interpretable Intuitive Physics Model. [[pdf]](https://arxiv.org/pdf/1808.10002.pdf) [[code]](https://github.com/tianye95/interpretable-intuitive-physics-model)
+    - Tian Ye, Xiaolong Wang, James Davidson, Abhinav Gupta. *ECCV 2018*
+- Learning Particle Dynamics for Manipulating Rigid Bodies, Deformable Objects, and Fluids. [[pdf]](https://openreview.net/pdf?id=rJgbSn09Ym) [[code]](https://github.com/YunzhuLi/DPI-Net)
+    - Yunzhu Li, Jiajun Wu, Russ Tedrake, Joshua B. Tenenbaum, Antonio Torralba. *ICLR 2019*
+- Reasoning About Physical Interactions with Object-Oriented Prediction and Planning. [[pdf]](https://openreview.net/pdf?id=HJx9EhC9tQ)
+    - Michael Janner, Sergey Levine, William T. Freeman, Joshua B. Tenenbaum, Chelsea Finn, Jiajun Wu. *ICLR 2019*
+- Deep Lagrangian Networks: Using Physics as Model Prior for Deep Learning. [[pdf]](https://openreview.net/pdf?id=BklHpjCqKm)
+    - Michael Lutter, Christian Ritter, Jan Peters. *ICLR 2019*
+- Learning Protein Structure with a Differentiable Simulator. [[pdf]](https://openreview.net/pdf?id=Byg3y3C9Km)
+    - John Ingraham, Adam Riesselman, Chris Sander, Debora Marks. *ICLR 2019*
 ## Journal Papers
 ## Tutorials
-- Deep RL Bootcamp Lecture 9 Model-based Reinforcement Learning. Chelsea Finn (UC Berkeley) [[link]](https://www.youtube.com/watch?v=iC2a7M9voYU)
-- Highlight Talk: Gaussian Processes for Data Efficient Learning. Marc Diesenroth [[link]](https://www.youtube.com/watch?v=dWsjjszwfi0)
 ## Tools
-- [GPFlow](https://github.com/GPflow/GPflow)
-- [GPy](https://github.com/SheffieldML/GPy)
 ## License
 To the extent possible under law, we have waived all copyright and related or neighboring rights to this work.
