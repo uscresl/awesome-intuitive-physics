@@ -56,6 +56,8 @@ Forward Models. [[pdf]](https://papers.nips.cc/paper/585-fast-robust-adaptive-co
     - Michael Lutter, Christian Ritter, Jan Peters. *ICLR 2019*
 - Learning Protein Structure with a Differentiable Simulator. [[pdf]](https://openreview.net/pdf?id=Byg3y3C9Km)
     - John Ingraham, Adam Riesselman, Chris Sander, Debora Marks. *ICLR 2019*
+- Differentiable Physics-informed Graph Networks. [[pdf]](https://arxiv.org/pdf/1902.02950.pdf)
+    - Sungyong Seo, Yan Liu. *ArXiv*
 ## Journal Papers
 ## Tutorials
 ## Tools
